@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><ONIXMessage>
+   <Header>
+      <FromCompany>Lightning Source Inc.</FromCompany>
+      <FromPerson>EDI edi@lightningsource.com</FromPerson>
+      <SentDate>20120126</SentDate>
+   </Header>
+   <Product>
+      <RecordReference>0195177835</RecordReference>
+      <NotificationType>04</NotificationType>
+      <ProductIdentifier>
+         <ProductIDType>02</ProductIDType>
+         <IDValue>0195177835</IDValue>
+      </ProductIdentifier>
+      <ProductIdentifier>
+         <ProductIDType>03</ProductIDType>
+         <IDValue>9780195177831</IDValue>
+      </ProductIdentifier>
+      <ProductIdentifier>
+         <ProductIDType>15</ProductIDType>
+         <IDValue>9780195177831</IDValue>
+      </ProductIdentifier>
+      <ProductForm>BB</ProductForm>
+      <ProductFormDetail>B415</ProductFormDetail>
+      <ProductFormFeature>
+         <ProductFormFeatureType>02</ProductFormFeatureType>
+         <ProductFormFeatureDescription>CRE</ProductFormFeatureDescription>
+      </ProductFormFeature>
+      <TitleDetail>
+         <TitleType>01</TitleType>
+         <TitleElement>
+            <TitleElementLevel>01</TitleElementLevel>
+            <TitleText>Muslim Women in America</TitleText>
+            <SubTitle> The Challenge of Islamic Identity Today</SubTitle>
+         </TitleElement>
+      </TitleDetail>
+      <Contributor>
+         <SequenceNumber>1</SequenceNumber>
+         <ContributorRole>A01</ContributorRole>
+         <PersonName>Yvonne Yazbeck Haddad </PersonName>
+         <PersonNameInverted>Haddad, Yvonne Yazbeck</PersonNameInverted>
+         <NamesBeforeKey>Yvonne Yazbeck </NamesBeforeKey>
+         <KeyNames>Haddad</KeyNames>
+      </Contributor>
+      <Contributor>
+         <SequenceNumber>2</SequenceNumber>
+         <ContributorRole>A01</ContributorRole>
+         <PersonName>Jane I. Smith </PersonName>
+         <PersonNameInverted>Smith, Jane I.</PersonNameInverted>
+         <NamesBeforeKey>Jane I. </NamesBeforeKey>
+         <KeyNames>Smith</KeyNames>
+      </Contributor>
+      <Contributor>
+         <SequenceNumber>3</SequenceNumber>
+         <ContributorRole>A01</ContributorRole>
+         <PersonName>Kathleen M. Moore </PersonName>
+         <PersonNameInverted>Moore, Kathleen M.</PersonNameInverted>
+         <NamesBeforeKey>Kathleen M. </NamesBeforeKey>
+         <KeyNames>Moore</KeyNames>
+      </Contributor>
+      <EditionVersionNumber>20110406164032</EditionVersionNumber>
+      <Language>
+         <LanguageRole>01</LanguageRole>
+         <LanguageCode>eng</LanguageCode>
+      </Language>
+      <NumberOfPages>202</NumberOfPages>
+      <Illustrations>
+         <IllustrationType>01</IllustrationType>
+         <IllustrationTypeDescription>9:B&amp;amp;W 6 x 9 in or 229 x 152 mm Case Laminate on Creme w/Gloss Lam</IllustrationTypeDescription>
+      </Illustrations>
+      <Subject>
+         <MainSubject />
+         <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+         <SubjectCode>SOC028000</SubjectCode>
+         <SubjectHeadingText>Social Science : Women's Studies - General</SubjectHeadingText>
+      </Subject>
+      <Subject>
+         <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+         <SubjectCode>REL037000</SubjectCode>
+         <SubjectHeadingText>Religion : Islam - General</SubjectHeadingText>
+      </Subject>
+      <SupportingResource>
+         <ResourceContentType>01</ResourceContentType>
+         <ContentAudience>00</ContentAudience>
+         <ResourceMode>03</ResourceMode>
+         <ResourceVersion>
+            <ResourceForm>02</ResourceForm>
+            <ResourceVersionFeature>
+               <ResourceVersionFeatureType>01</ResourceVersionFeatureType>
+               <FeatureValue>D502</FeatureValue>
+            </ResourceVersionFeature>
+         </ResourceVersion>
+         <ResourceLink>http://image-hub.lightningsource.com/2011-04-01/Images/front_cover/x/sku/0195177835.jpg</ResourceLink>
+      </SupportingResource>
+      <SupportingResource>
+         <ResourceContentType>02</ResourceContentType>
+         <ContentAudience>00</ContentAudience>
+         <ResourceMode>03</ResourceMode>
+         <ResourceVersion>
+            <ResourceForm>02</ResourceForm>
+            <ResourceVersionFeature>
+               <ResourceVersionFeatureType>01</ResourceVersionFeatureType>
+               <FeatureValue>D502</FeatureValue>
+            </ResourceVersionFeature>
+         </ResourceVersion>
+         <ResourceLink>http://image-hub.lightningsource.com/2011-04-01/Images/back_cover/x/sku/0195177835.jpg</ResourceLink>
+      </SupportingResource>
+      <PublishingDetail>
+         <Imprint>
+            <ImprintName>Oxford University Press</ImprintName>
+         </Imprint>
+         <Publisher>
+            <PublisherName>Oxford University Press</PublisherName>
+         </Publisher>
+      </PublishingDetail>
+      <PublishingDate>
+         <PublishingDateRole>01</PublishingDateRole>
+         <DateFormat>00</DateFormat>
+         <Date>20060301</Date>
+      </PublishingDate>
+      <Measure>
+         <MeasureType>01</MeasureType>
+         <Measurement>9.00</Measurement>
+         <MeasureUnitCode>in</MeasureUnitCode>
+      </Measure>
+      <Measure>
+         <MeasureType>02</MeasureType>
+         <Measurement>6.00</Measurement>
+         <MeasureUnitCode>in</MeasureUnitCode>
+      </Measure>
+      <Measure>
+         <MeasureType>03</MeasureType>
+         <Measurement>0.63</Measurement>
+         <MeasureUnitCode>in</MeasureUnitCode>
+      </Measure>
+      <Measure>
+         <MeasureType>08</MeasureType>
+         <Measurement>1.036</Measurement>
+         <MeasureUnitCode>lb</MeasureUnitCode>
+      </Measure>
+      <ProductSupply>
+         <Market>
+            <Territory>
+               <CountriesIncluded>BR</CountriesIncluded>
+            </Territory>
+            <SupplyDetail>
+               <Supplier>
+                  <SupplierRole>07</SupplierRole>
+                  <SupplierName>Lightning Source Inc.</SupplierName>
+               </Supplier>
+               <ReturnsConditions>
+                  <ReturnsCodeType>02</ReturnsCodeType>
+                  <ReturnsCode>N</ReturnsCode>
+               </ReturnsConditions>
+               <ProductAvailability>20</ProductAvailability>
+               <SupplyDate>
+                  <SupplyDateRole>08</SupplyDateRole>
+                  <DateFormat>00</DateFormat>
+                  <Date>20110408</Date>
+               </SupplyDate>
+               <Stock>
+                  <PackQuantity>30</PackQuantity>
+               </Stock>
+               <Price>
+                  <PriceType>01</PriceType>
+                  <DiscountCoded>
+                     <DiscountCodeType>02</DiscountCodeType>
+                     <DiscountCodeTypeName>LSI</DiscountCodeTypeName>
+                     <DiscountCode>50</DiscountCode>
+                  </DiscountCoded>
+                  <PriceAmount>44.44</PriceAmount>
+                  <CurrencyCode>USD</CurrencyCode>
+               </Price>
+            </SupplyDetail>
+         </Market>
+      </ProductSupply>
+   </Product>
+</ONIXMessage>

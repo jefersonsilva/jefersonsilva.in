@@ -1,0 +1,158 @@
+
+/* Left & Right alignment */
+
+.left { float:left;}
+.right { float:right;}
+.wrapper {width:100%; overflow:hidden;}
+.relative{ position:relative;}
+
+/* Global properties ======================================================== */
+
+body{ background:url(../images/bg.jpg) 0 0 repeat #112f39; border:0; font:12px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#448987; line-height:21px; min-width:960px; overflow:hidden}
+
+.css3{border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px; box-shadow: 0 0 4px rgba(0, 0, 0, .4); -moz-box-shadow: 0 0 4px rgba(0, 0, 0, .4); -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .4); position: relative;}
+
+.page_spinner{ position:absolute;background: url(../images/bg.jpg) 0 0 repeat #112f39; z-index:99; width:100%; height:100%; top:0; left:0}
+.page_spinner div{ position:absolute;background: url(../images/ajax-loader.gif) 50% 50% no-repeat;width:100%; height:100%; top:0; left:0}
+
+
+/* Global Structure ============================================================= */
+
+body, html{ height:100%;}
+.over{ position:relative; width:100%; overflow:hidden;min-height:100%; height:auto !important; background:url(../images/bg_highlight.png) center center no-repeat}
+
+.bg1{ background:url(../images/bg_top.png) repeat; position:relative;}
+.bg2{ background:url(../images/top_line.png) 0 0 repeat-x;}
+.bg3{ background:url(../images/top_line.png) 0 0 repeat-x; height:8px; line-height:0; position:absolute; bottom:-8px; left:0; width:100%}
+.bg4{ background: url(../images/bg_bot.png) 0 bottom repeat-x; position:absolute; left:0; bottom:0; width:100%; height:61px;}
+
+/* ============================= main layout ====================== */
+
+a{ color:#fff; text-decoration:none; outline:none}
+a:hover{}
+h1{ position:absolute; top:79px; left:400px;}
+h2{ font:24px 'Condiment', cursive; color:#fff; line-height:46px; padding:57px 0 20px 0;}
+h2.pad_bot1{ padding-bottom:10px;}
+h2 img{ float:left; margin-right:3px; margin-left:15px;}
+p{ padding-bottom:21px;}
+
+/* ============================= header ====================== */
+header{ height:483px; position:relative; overflow:visible !important}
+
+#logo{ display:block; text-indent:-9999px; background:url(../images/logo.png) 0 0 no-repeat; width:163px; height:79px;}
+
+.menu{ padding:75px 0 0 62px;}
+#menu {}
+#menu > li { float:left; margin-right:33px; position:relative; margin-top:16px;}
+#menu > li > a{ display:block; font:24px 'Condiment', cursive; color:#48413c; line-height:48px; position:relative; padding:0 14px;}
+#menu > li > a span{ font-size:18px; color:#a29284; padding-right:4px; float:left; padding-top:9px; line-height:34px;}
+#menu > li > strong{ position:absolute; top:0px; left:0; width:100%; height:41px; background:url(../images/menu_active.gif) 0 0 repeat-x;border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-bottom:1px solid #fff; display:block; }
+#menu > li > a:hover, #menu > .active > a{ }
+#menu > .marg_right1{ margin-right:327px;}
+
+.submenu_1{ position: absolute; top:41px; left:-15px; width:141px;}
+.submenu_1 ul{ position:relative; padding:5px; background:url(../images/bg_pattern.jpg) 0 0 repeat;border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px; box-shadow: 0 0 4px rgba(0, 0, 0, .4); -moz-box-shadow: 0 0 4px rgba(0, 0, 0, .4); -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .4);}
+.submenu_1 li{ height:42px; position:relative;}
+.submenu_1 a{ padding:0 10px; position:relative; font:24px 'Condiment', cursive; line-height:1.2em; color:#48413c; padding-top:10px; display:block}
+.submenu_1 strong{ position:absolute; top:0px; left:0; width:100%; height:41px; background:url(../images/menu_active.gif) 0 0 repeat-x;border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-bottom:1px solid #fff; display:block;}
+
+.submenu_2{position: absolute; top:8px; left:139px; width:141px;}
+
+.menu_block{ background:url(../images/bg_header.png) center 0 no-repeat; height:242px; position:absolute; width:100%; left:0; bottom:-121px; z-index:10}
+
+.hide_block{ padding-top:28px; position:relative; z-index:11; position:relative}
+#search{ float:right; margin-right:17px; background:url(../images/search_bg.png) 0 0 no-repeat; width:224px; height:33px;}
+#search .input{ padding:9px 10px; width:170px; background:url(../images/spacer.gif) repeat; height:15px; font:12px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#fff; float:left;}
+#search .submit{ float:left; width:34px; height:33px; background:url(../images/spacer.gif) repeat; cursor:pointer}
+
+#login{ float:right; margin-top:7px; margin-right:19px; background:url(../images/search_line.gif) right 0 no-repeat; line-height:19px; color:#448987; padding-right:21px;}
+
+#home{ margin-top:9px; background:url(../images/home.png) 0 0 no-repeat; width:15px; height:15px; margin-left:33px; float:left;}
+#home span{ display:block; width:100%; height:100%; background:url(../images/home_active.png) 0 0 no-repeat}
+
+/* ============================= content ====================== */
+
+#content{ padding-bottom:102px; padding-top:81px;}
+#content > ul > li{ position:relative;}
+
+#slider{ position:relative; width:930px; margin-left:15px; height:420px; overflow:visible !important; margin-bottom:53px;}
+.items{ display: none}
+
+.pagination{ position:absolute; z-index:2; bottom:-34px; left:416px;}
+.pagination li{ float:left; margin-right:1px;}
+.pagination a{ display:block; width:24px; height:24px; background:url(../images/buttons.png) right 0 no-repeat}
+.pagination a:hover, .pagination .current a{ background-position:left}
+
+.box{ position:relative; min-height:181px; padding:24px 20px;}
+.box .active{ position:absolute; top:0; left:0; width:100%; height:100%; background:#0b2027;border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px;}
+.box > div{ position:relative;}
+.box h2{ padding:0 0 5px 0;}
+.box h2 img{ margin-left:-2px;}
+
+.link1{ padding-right:16px; background:url(../images/marker_1.gif) right 8px no-repeat}
+.link2{ color:#8ce29d; text-decoration:underline}
+
+.pad{ padding:19px 20px 34px}
+.pad_bot1{ padding-bottom:30px;}
+.pad_left1{ padding-left:20px;}
+.marg_right1{ margin-right:20px;}
+
+.testimonials{ padding-bottom:45px;}
+.testimonials .quot{ background:url(../images/bg_testimonials.png) 0 0 no-repeat; padding:18px 20px; width:222px; height:100px; margin-bottom:17px;}
+.testimonials a{ color:#448987}
+.testimonials a:hover{ color:#fff}
+.testimonials figure{ margin-left:31px; margin-right:15px; float:left;}
+.testimonials .pad_top1{ padding-top:18px;}
+.testimonials span{ color:#fff;}
+
+#gallery1{ height:224px !important; margin-bottom:20px;}
+#gallery1 li{ padding-bottom:20px; overflow:hidden;}
+#gallery1 a{ float:left; margin-right:20px; position:relative;}
+#gallery1 a img{ width:193px; height:102px;}
+#gallery1 .last{ margin-right:0}
+#gallery1 span{ position:absolute; top:0; left:0; width:100%; height:100%; background:url(../images/border1.png) 0 0 no-repeat}
+
+.prev, .next{ position:absolute; top:68px; right:22px; width:19px; height:14px; background:url(../images/markers.png) 0 0 no-repeat;}
+.next{ background-position:right 0; right:-2px}
+
+.prev:hover{ background-position:0 bottom}
+.next:hover{ background-position: right bottom}
+
+.fancybox{ position:relative; display:block;}
+.fancybox span{ position:absolute; top:0; left:0; background:url(../images/border2.png) 0 0 no-repeat; width:100%; height:100%;}
+.fancybox img{ height:139px;}
+
+.google_map{width:300px; height:335px; background:#fff;border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px;}
+
+.address span{ float:left; width:87px;}
+
+.color1{ color:#fff}
+
+/* ============================= footer ====================== */
+
+footer { color:#fff; padding-top:20px;}
+footer a{ color:#fff;}
+footer a:hover{}
+
+#icons{ float:right;}
+#icons li{ float:left; padding-right:12px; margin-right:10px; background:url(../images/footer_line.gif) right 7px no-repeat}
+#icons .last{ background:none; padding-right:0; margin-right:0}
+
+/* ============================= forms ============================= */
+
+#ContactForm{ position:relative;}
+#ContactForm .wrapper{ overflow:inherit; min-height:62px;}
+#ContactForm .success{display:none; position:absolute; right:60px; bottom:0;}
+#ContactForm label{ position:relative;min-height:32px; display: inline-block;}
+#ContactForm .message{ height:202px;}
+#ContactForm  span{ display:block}
+#ContactForm .error, #ContactForm .empty{ font-size:10px; color:#fff; line-height:14px; display:none; width:100%}
+#ContactForm a{ margin-right:20px; float: left; background-position:right 10px;}
+#ContactForm .input { margin:0;width:200px; height:16px; background: url(../images/spacer.gif) repeat; padding:8px 10px;color:#fff; font:12px "Trebuchet MS", Arial, Helvetica, sans-serif;}
+#ContactForm textarea { overflow: auto; margin:0;resize:none;width:300px; height:136px; background: url(../images/spacer.gif) repeat; padding:8px 10px;color:#fff; font:12px "Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+
+#ContactForm  .bg{ background:#000; position:relative; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; display:inline-block;}
+
+
+
